@@ -1,0 +1,159 @@
+
+ /* Common Css Start */
+ *{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+ }
+ body{
+    font-family: 'Open Sans', sans-serif;
+ }
+ a{
+    text-decoration: no
+ }
+ ul{
+    list-style-type: none;
+ }
+ .container{
+    width: 1170px;
+    margin: 0 auto;
+ }
+ .row{
+    display: flex;
+    flex-wrap: wrap;
+ }
+ /* //Common Css End */
+ 
+ /* Nav Section Css Start */
+ nav{
+    background-color: #02918b;
+    text-align: justify;
+ }
+ nav div.row{
+    align-items: center;
+ }
+ nav .logo{
+    width: 15%;
+ }
+ nav .menu{
+    width: 75%;
+ }
+ nav .menu ul{
+    justify-content: flex-end;
+ }
+ nav .menu ul li a{
+    font-size: 12px;
+    font-weight: 800;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 26px 25px;
+    display: inline-block;
+    transition: 1s;
+ }
+ nav .menu ul li a:hover{
+    color: #0b1016;
+    background: #cfc91d;
+ }
+ /* //Nav Section Css End */
+
+/* banner secti start  */
+#banner{
+   background-image: url(../img/benar.jpg);
+   height: 728px;
+   background-size: cover;
+   text-align: center;
+   position: relative;
+   z-index: 1;
+}
+#banner::before{
+   content:'' ;
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background-color: black;
+   top: 0px;
+   left: 0px;
+   z-index: -1;
+   opacity: 0.8;
+}
+#banner .container{
+   margin: auto;
+}
+#banner img{
+   display: block;
+   margin: 52px auto;
+}
+#banner h3{
+   font-size: 30px;
+   color: #ffffff;
+   font-weight: 400;
+}
+#banner h1{
+   font-size:68px ;
+   color: #ffffff;
+   font-weight: 800;
+   text-transform: uppercase;
+   letter-spacing: 18px;
+}
+#banner p{
+   font-size: 18px;
+   color: #ffffff;
+   font-weight: 400;
+}
+#banner a{
+   font-size: 14px;
+   color:#0b1016;
+   font-weight: 800;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   text-decoration: none;
+   background-color: #cfc91d;
+   padding: 18px 42px;
+}
+/* banner section css start  */
+
+/* about section css staret  */
+
+#about{
+   text-align: center;
+   padding-bottom: 155px;
+}
+#about .rasel{
+   margin: 98px 84px;
+}
+#about .rasel h2{
+   font-size: 46px;
+   font-weight: 800;
+   color:#02918c;
+   text-transform: uppercase;
+   padding: 32px;
+}
+#about .rasel .chap{
+   padding-bottom: 36px;
+}
+#about .rasel p{
+   width: 880px;
+   margin: auto;
+   color: #7e8287;
+   font-size: 16px;
+}
+#about .about_box{
+width: 25%;
+border-right: 2px solid #7e8287;;
+padding:50px 60px;
+}
+#about .about_box:last-child{
+   border: none;
+}
+#about .about_box h5{
+   font-size: 16px;
+   font-weight: 800;
+   color: #7e8287;
+   margin: 28px 33px;
+}
+#about .about_box p{
+   font-size: 11px;
+   color: #7e8287;
+}
+/* about section css staret  */
